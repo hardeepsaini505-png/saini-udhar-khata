@@ -31,6 +31,15 @@ jobs:
       - name: Get Dependencies
         run: flutter pub get
 
+      - name: Generate Missing Platform Files
+        run: flutter create .
+
+      - name: Clean Build
+        run: flutter clean
+
+      - name: Get Dependencies Again
+        run: flutter pub get
+
       - name: Build APK
         run: flutter build apk --release
 
