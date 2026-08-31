@@ -183,7 +183,11 @@ class _HomePageState extends State<HomePage> {
         foregroundColor: Colors.white,
         title: Row(
           children: [
-            _SainiLogo(size: 38),
+            Image.asset(
+  'assets/images/app_logo.png',
+  width: 45,
+  height: 45,
+),
             const SizedBox(width: 10),
             const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
