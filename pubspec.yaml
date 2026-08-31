@@ -1,0 +1,17 @@
+name: saini_udhar_khata
+description: SAINI Udhar Khata App
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.4
+  file_picker: ^10.3.3
+
+flutter:
+  uses-material-design: true
